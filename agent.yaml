@@ -1,0 +1,8 @@
+agentName: dice-agent
+image: localhost:5001/dice-agent:latest
+language: python
+framework: adk
+modelProvider: gemini
+modelName: gemini-2.0-flash
+description: ""
+updatedAt: 2026-01-16T12:02:38.135715+01:00

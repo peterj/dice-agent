@@ -2,7 +2,6 @@ import random
 
 from google.adk import Agent
 from google.adk.tools.tool_context import ToolContext
-from google.adk.models.lite_llm import LiteLlm
 
 from .mcp_tools import get_mcp_tools
 

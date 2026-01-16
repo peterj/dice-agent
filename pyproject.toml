@@ -1,7 +1,7 @@
 [project]
-name = "dice-agent"
+name = "diceagent"
 version = "0.1"
-description = "dice-agent agent"
+description = "diceagent agent"
 readme = "README.md"
 dependencies = [
   "google-adk>=1.8.0",

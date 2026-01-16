@@ -43,8 +43,8 @@ def create_model():
 mcp_tools = get_mcp_tools()
 root_agent = Agent(
     model=create_model(),
-    name="dice-agent_agent",
-    description="dice-agent agent.",
+    name="diceagent_agent",
+    description="diceagent agent.",
     instruction="""
 You roll dice and answer questions about the outcome of the dice rolls.
 You can roll dice of different sizes.

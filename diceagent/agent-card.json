@@ -1,6 +1,6 @@
 {
-  "name": "dice-agent",
-  "description": "A dice-agent agent",
+  "name": "diceagent",
+  "description": "A diceagent agent",
   "url": "http://localhost:8080",
   "version": "0.0.1",
   "capabilities": {
@@ -10,10 +10,10 @@
   "defaultOutputModes": ["text"],
   "skills": [
     {
-      "id": "dice-agent",
-      "name": "dice-agent",
-      "description": "A dice-agent agent",
-      "tags": ["dice-agent"]
+      "id": "diceagent",
+      "name": "diceagent",
+      "description": "A diceagent agent",
+      "tags": ["diceagent"]
     }
   ]
 }

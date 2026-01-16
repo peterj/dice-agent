@@ -1,4 +1,4 @@
-# dice-agent Agent
+# diceagent Agent
 
 This project was scaffolded with the AgentRegistry CLI. It gives you a working
 ADK Python agent wired for MCP tools and ready to publish through AgentRegistry.
@@ -8,7 +8,7 @@ ADK Python agent wired for MCP tools and ready to publish through AgentRegistry.
 - Provider: **gemini**
 - Model: **gemini-2.0-flash**
 
-Update `dice-agent/agent.py` if you need to switch providers, add tools, or
+Update `diceagent/agent.py` if you need to switch providers, add tools, or
 change the root instructions.
 
 ## Local iteration
@@ -18,7 +18,7 @@ change the root instructions.
 
    ```bash
    uv sync
-   uv run dice-agent
+   uv run diceagent
    ```
 
 3. Use `arctl agent run .` to launch the local chat experience with docker
@@ -35,7 +35,7 @@ change the root instructions.
 2. Publish the agent so the registry can serve it to clients:
 
    ```bash
-   arctl agent publish . --image localhost:5001/dice-agent:latest
+   arctl agent publish . --image localhost:5001/diceagent:latest
    ```
 
 3. Share the resulting agent link or deploy it to your runtime of choice.

@@ -7,12 +7,12 @@ FROM $DOCKER_REGISTRY/kagent-dev/kagent/kagent-adk:$VERSION
 
 WORKDIR /app
 
-COPY dice-agent/ dice-agent/
+COPY diceagent/ diceagent/
 COPY pyproject.toml pyproject.toml
 COPY README.md README.md
 COPY .python-version .python-version
 
 RUN uv sync
 
-CMD ["dice-agent"]
+CMD ["diceagent"]
 

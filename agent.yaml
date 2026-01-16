@@ -1,5 +1,5 @@
-agentName: dice-agent
-image: localhost:5001/dice-agent:latest
+agentName: diceagent
+image: localhost:5001/diceagent:latest
 language: python
 framework: adk
 modelProvider: gemini

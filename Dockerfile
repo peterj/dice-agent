@@ -3,8 +3,7 @@
 
 ARG DOCKER_REGISTRY=ghcr.io
 ARG VERSION=0.7.4
-FROM $DOCKER_REGISTRY/kagent-dev/kagent/kagent-adk:$VERSION
-
+FROM pj3677/kagent-adk:v0.7.11-2-g06db4c30
 WORKDIR /app
 
 COPY diceagent/ diceagent/

@@ -7,5 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
   "google-adk>=1.8.0",
   "kagent-adk>=0.7.12",
+  "agentsts-adk >= 0.0.8",
+  "agentsts-core >= 0.0.8",
 ]
 
